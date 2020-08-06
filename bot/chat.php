@@ -26,7 +26,7 @@ $questions = [
     "¿Tienes coronavirus?" =>"jaja, a los bots no nos da coronavirus :).",
     "Tienes coronavirus?" =>"jaja, a los bots no nos da coronavirus :).",
     //redes sociales
-    "como contactar?" => "Puedes marcar el numero961 173 4245 tambien mandarnos mensaje privado en nuestro facebook https://www.facebook.com/acumedictux o un correo a medicalternativa@hotmail.com",
+    "como contactar?" => "Puedes marcar el numero 961 173 4245 tambien mandarnos mensaje privado en nuestro facebook https://www.facebook.com/acumedictux o un correo a medicalternativa@hotmail.com",
     "contacto?" => "Puedes marcar el numero 961 173 4245 tambien mandarnos mensaje privado en nuestro facebook https://www.facebook.com/acumedictux o un correo a medicalternativa@hotmail.com",
     "contactarlos?" => "Puedes marcar el numero 961 173 4245 tambien mandarnos mensaje privado en nuestro facebook https://www.facebook.com/acumedictux o un correo a medicalternativa@hotmail.com",
     "contactar los?" => "Puedes marcar el numero 961 173 4245 tambien mandarnos mensaje privado en nuestro facebook https://www.facebook.com/acumedictux o un correo a medicalternativa@hotmail.com",
@@ -51,8 +51,7 @@ $questions = [
     "Todo el dia esta abierto?"=>"De lunes a viernes de 10:00 - 20:00 horas",
     "¿Todo el dia esta abierto?"=>"De lunes a viernes de 10:00 - 20:00 horas",
     //Precios
-    "¿Qué precios manejan?"=>"De lunes a viernes de 10:00 - 20:00 horas",
-    "¿Qué precios manejan?"=>"De lunes a viernes de 10:00 - 20:00 horas",
+
     //donde encontrarnos
     "donde estan?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
     "donde estan"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
