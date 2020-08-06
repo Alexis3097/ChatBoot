@@ -91,7 +91,7 @@ $questions = [
 
     "Buenas tardes" => "Buenas tardes, ¿En que puedo ayudarle?",
     "Buenos dias" => "Buenos dias, ¿En que puedo ayudarle?" ,
-    "Buenas noches" => "Buenas noches, ¿En que puedo ayudarle?"
+    "Buenas noches" => "Buenas noches, ¿En que puedo ayudarle?",
  
     //despedida
     "adios" =>"cuidate",
@@ -198,17 +198,20 @@ $questions = [
     "sabes contar un chiste?" => "Actualmente solo puedeo dar información de acumedic, pero puedo intentarlo ¿Cómo saludan los mares y los océanos?",
     "sabes contar un chiste" => "Actualmente solo puedeo dar información de acumedic, pero puedo intentarlo ¿Cómo saludan los mares y los océanos?",
 
-    "¿como?" => "con un ola"
-    "como?" => "con un ola"
-    "como" => "con un ola"
-    "?" => "con un ola"
-    "¿?" => "con un ola"
+    "¿como?" => "con un ola",
+    "como?" => "con un ola",
+    "como" => "con un ola",
+    "?" => "con un ola",
+    "¿?" => "con un ola",
+    "no se" => "con un ola",
+    "no sé" => "con un ola",
+    "nose" => "con un ola",
 
-    "Jajaja" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
+    "jajaja" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
     "jajajaja " => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
     "ja ja ja ja " => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
     "Ja ja ja" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
-    "Jaja" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
+    "jaja" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
     "Ja ja" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",
 
     "Jejeje" => "No soy buena eso, ¿Algun otra pregunta sobre acumedic?",

@@ -98,7 +98,7 @@
 </div>
 <div class="chat-box">
     <div class="chat-box-header">
-      <p>¡Pide una cita!</p>
+      <p>¡Resuelve tus dudas!</p>
         <span class="chat-box-toggle"><i style="color:#fff;" class="fas fa-times"></i></span>
     </div>
     <div class="chat-box-body">
