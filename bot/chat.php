@@ -38,18 +38,22 @@ $questions = [
     "¿Todo el dia esta abierto?"=>"De lunes a viernes de 10:00 - 20:00 horas",
 
     //donde encontrarnos
-    "donde estan?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "donde estan"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "¿donde estan?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "donde encontrarlos?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "donde encontrarlos"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "¿donde encontrarlos?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "¿donde se ubican?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "donde se ubican?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "direccion"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "cual es la direccion?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "¿cual es la direccion?"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
-    "cual es la direccion"=>"monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "donde estan?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "donde estan"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "¿donde estan?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "donde encontrarlos?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "donde encontrarlos"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "¿donde encontrarlos?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "¿donde se ubican?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "donde se ubican?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "direccion"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "cual es la direccion?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "¿cual es la direccion?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "cual es la direccion"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "donde se ubican"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "ubicacion"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "ubicacion?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
+    "¿ubicacion?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
     
     //name
     "como te llamas?" =>"Soy AcumedicBoot y estoy para servirte",
@@ -90,7 +94,7 @@ if (isset($_GET['msg'])) {
         } elseif ($botty->ask($msg, $questions) == "") {
             $botty->reply("Lo siento, Las preguntas deben estar relacionadas con acumedic.");
         } else {
-            $botty->reply($botty->ask($msg,$questions));
+            $botty->reply($botty->ask($msg, $questions));
         }
     });
 }
