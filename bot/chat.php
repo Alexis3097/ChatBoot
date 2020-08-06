@@ -210,7 +210,7 @@ if (isset($_GET['msg'])) {
         if ($msg == 'hi' || $msg == "hello") {
             $botty->reply('Hola');
         } elseif ($botty->ask($msg, $questions) == "") {
-            $botty->reply("Lo siento, Las preguntas deben estar relacionadas con acumedic.");
+            $botty->reply("Lo siento, no pude entender la pregunta.");
         } else {
             $botty->reply($botty->ask($msg, $questions));
         }
