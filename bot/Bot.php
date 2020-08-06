@@ -1,7 +1,7 @@
 <?php
 class Bot
 {
-    private $name = "AcumedicBoot";
+    private $name = "AcumedicBot";
     private $gender = "Mujer";
 
     public function getName()

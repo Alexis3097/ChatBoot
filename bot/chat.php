@@ -75,12 +75,12 @@ $questions = [
     "¿ubicacion?"=>"Nos ubicamos en monseni 124 fraccionamiento montserrat 29070 Tuxtla Gutiérrez, Chiapas, México",
     
     //name
-    "quien eres" =>"Soy AcumedicBoot y estoy para servirte",
-    "¿quien eres?" =>"Soy AcumedicBoot y estoy para servirte",
-    "quien eres?" =>"Soy AcumedicBoot y estoy para servirte",
-    "como te llamas?" =>"Soy AcumedicBoot y estoy para servirte",
-    "cual es tu nombre?" =>"Soy AcumedicBoot y estoy para servirte",
-    "tienes nombre?" =>"Soy AcumedicBoot y estoy para servirte",
+    "quien eres" =>"Soy AcumedicBot y estoy para servirte",
+    "¿quien eres?" =>"Soy AcumedicBot y estoy para servirte",
+    "quien eres?" =>"Soy AcumedicBot y estoy para servirte",
+    "como te llamas?" =>"Soy AcumedicBot y estoy para servirte",
+    "cual es tu nombre?" =>"Soy AcumedicBot y estoy para servirte",
+    "tienes nombre?" =>"Soy AcumedicBot y estoy para servirte",
 
 
     //saludo
@@ -100,7 +100,7 @@ $questions = [
     "bye" =>"Good bye ♥",
     "see you" =>"see you lader ♥",
     //
-    "what is your name?" =>" my name is AcumedicBoot",
+    "what is your name?" =>" my name is AcumedicBot",
    
     "tu nombre es?" => "Mi nombre es " . $bot->getName(),
     "tu eres?" => "Yo soy una " . $bot->getGender(),
